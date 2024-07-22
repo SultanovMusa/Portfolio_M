@@ -2,32 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.slow-spin {
+  animation: rotation 5s linear infinite;
+}
+
+:root {
+  --main-black: #1A1A25;
+  --main-background: #F6F6F6;
+  --main-pink: #CB11AB;
+  --max-width: 1440px;
+}
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+::-webkit-scrollbar-track {
+	background: black;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: white;
+	border-radius: 20px;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  box-sizing: border-box;
+  background-color: var(--main-background);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.background {
+  background-color: #1A1A25;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+.main-black-background {
+  background-color: var(--main-black);
+}
+
+.main-pink-background {
+  background-color: #CB11AB;
+}
+
+.max-container{
+  max-width: var(--max-width);
+  margin:0 80px
+}
+.container {
+	width: 100%;
+	max-width: 1280px;
+	margin-inline: auto;
+	padding-inline: 20px;
 }
