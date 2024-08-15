@@ -3,25 +3,28 @@ import { PiInstagramLogoBold } from "react-icons/pi";
 import { BsGithub } from "react-icons/bs";
 import Link from "next/link";
 import AnimatedNumbers from "./AnimatedNumbers";
-// import AnimatedNumbers from "./AnimatedNumbers";
+import Image from "next/image";
 
 const Navbar = () => {
 	return (
-		<div className="fixed top-0 bg-transparent z-[20] w-full flex  gap-5 md:justify-between md:px-60 p-5">
-			<h1 className="text-white text-[40px] font-mono">
-				SMZ
-				<span className="text-sky-600"> <AnimatedNumbers value={2005}/></span>
-			</h1>
-			<div className="flex flex-row gap-5">
+		<div className="fixed top-0 bg-[#01060f] shadow-[0px_4px_10px_rgba(0,0,255,0.5)] z-[20] w-full flex  gap-5 md:justify-between md:px-60 pi-5 ">
+			<div className="flex text-center items-center gap-3 ">
+				<Image src="/assets/smzlogo.jpg" alt="photo" width={80} height={80}  />
+				<span className="text-white text-2xl ">
+					<AnimatedNumbers value={2005} />
+				</span>
+			</div>
+
+			<div className="flex flex-row gap-5 items-center">
 				<Link href="https://github.com/SultanovMusa">
-					<BsGithub className="w-8 h-8" color="white" />
+					<BsGithub className="w-8 h-8 text-white hover:text-blue-500 animate-pulse" />
 				</Link>
 
 				<Link href="https://www.instagram.com/sultanov_11_/">
-					<PiInstagramLogoBold className="w-8 h-8" color="white" />
+					<PiInstagramLogoBold className="w-8 h-8 text-white hover:text-blue-500 animate-pulse" />
 				</Link>
 				<Link href="https://t.me/Mufa_Sultanov">
-					<BsTelegram className="w-8 h-8" color="white" />
+					<BsTelegram className="w-8 h-8 text-white hover:text-blue-500 animate-pulse " />
 				</Link>
 			</div>
 		</div>

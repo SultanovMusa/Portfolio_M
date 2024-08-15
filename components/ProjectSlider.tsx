@@ -13,7 +13,7 @@ import Image from "next/image";
 const ProjectSlider = () => {
 	return (
 		<div className="container">
-			<div className="w-[70%] md:w-[40%]">
+			<div className="w-[70%] md:w-[50%]">
 				<Swiper
 					breakpoints={{
 						700: {

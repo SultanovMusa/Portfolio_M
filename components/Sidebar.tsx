@@ -2,18 +2,18 @@
 
 import React, { useState, useEffect } from "react";
 import { AnimatePresence } from "framer-motion";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { NavLinks } from "@/constants";
-import { link } from "fs";
-import Link from "next/link";
 import Transition from "./Transition";
 
 const Sidebar = () => {
 	const [isRouting, setIsRouting] = useState(false);
-	const [isActive, setIsActive] = useState("Home");
+	const [isActive, setIsActive] = useState("/");
 	const [prevPath, setPrevPath] = useState("/");
 
 	const path = usePathname();
+
+	const router = useRouter();
 
 	useEffect(() => {
 		if (prevPath !== path) {
@@ -32,21 +32,23 @@ const Sidebar = () => {
 		}
 	}, [isRouting]);
 	return (
-		<div className="fixed   left-1/2 pt-3 top-[90%] z-[20] h-[48px] w-[200px] rounded-full bg-gray-500 bg-opacity-50">
+		<div className="fixed   left-[45%] pt-3 top-[90%] z-[20] h-[48px] w-[250px] rounded-full bg-[#01060f] shadow-[2px_6px_10px_rgba(0,0,255,0.5)]">
 			<AnimatePresence mode="wait">
 				{isRouting && <Transition />}
-				<div className="flex flex gap-5 pb-3 justify-center items-center h-full">
+				<div className="flex flex gap-5 pb-3 justify-center items-center h-full ">
 					{NavLinks.map((link) => (
-						<Link
+						<div
 							key={link.name}
-							href={link.link}
-							onClick={() => setIsActive(link.name)}>
+							onClick={() => {
+								setIsActive(link.name);
+								router.push(link.link);
+							}}>
 							<link.icon
-								className={`w-[28px] h-[28px] ${
-									isActive === link.name ? "text-sky-600" : "text-white"
+								className={`w-[28px] h-[28px] cursor-pointer ${
+									isActive === link.name ? "text-blue-800" : "text-white"
 								}`}
 							/>
-						</Link>
+						</div>
 					))}
 				</div>
 			</AnimatePresence>

@@ -21,8 +21,10 @@
   --main-pink: #CB11AB;
   --max-width: 1440px;
 }
+
+/* !SCROOL */
 ::-webkit-scrollbar {
-	width: 5px;
+	width: 2px;
 }
 
 ::-webkit-scrollbar-track {
@@ -31,12 +33,12 @@
 
 ::-webkit-scrollbar-thumb {
 	background-color: white;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 body {
   box-sizing: border-box;
-  background-color: var(--main-background);
+    background:black;
 }
 
 .background {
@@ -44,7 +46,10 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+	width: 100%;
+	max-width: 1280px;
+	margin-inline: auto;
+	padding-inline: 20px
 }
 
 .main-black-background {
@@ -59,9 +64,28 @@ body {
   max-width: var(--max-width);
   margin:0 80px
 }
-.container {
-	width: 100%;
-	max-width: 1280px;
-	margin-inline: auto;
-	padding-inline: 20px;
+
+
+.shape {
+  cursor: pointer;
+  animation: morph 8s ease-in-out infinite;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.image {
+  pointer-events: none;
 }
