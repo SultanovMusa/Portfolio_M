@@ -39,7 +39,6 @@ const ServiceSlider = () => {
 								<div className="relative flex flex-col items-center justify-center gap-3">
 									<item.icon className="text-blue-600  group-hover:text-blue-400 w-[120px] h-[120px] items-center" />
 									<h1 className="text-xl lg:text-2xl text-center  place-items-center  justify-items-center">{item.title}</h1>
-									{/* <p className="lg:text-[18px]">{item.content}</p> */}
 								</div>
 							</div>
 						</SwiperSlide>

@@ -21,6 +21,7 @@ const Page = () => {
 							className="max-w-[500px] w-[100%] h-[500px]"
 							src="/assets/webdev.svg"
 							alt="photo"
+							priority={true}
 							width={300}
 							height={300}
 						/>
@@ -30,6 +31,7 @@ const Page = () => {
 					<Image
 						src="/assets/bulb.png"
 						alt="bulb"
+						priority={true}
 						width={260}
 						height={260}
 						className="w-full h-full hidden md:block"
