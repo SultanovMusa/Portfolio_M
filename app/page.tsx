@@ -1,6 +1,5 @@
-import Particle from "@/components/Particle";
-import ProfileShape from "@/components/ProfileShape";
 
+import ProfileShape from "@/components/ProfileShape";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,10 +7,10 @@ export default function Home() {
 		<div>
 			<div className="container">
 				<main className="flex items-center h-screen relative">
-					<div className="container">
-						<div className="absolute right-0 top-0 h-full w-[80%] z-[2]">
+						{/* <div className=" right-0 top-0 h-full w-[60%] ">
 							<Particle />
-						</div>
+						</div> */}
+					<div className="container">
 						<div className="absolute  bottom-0 ">
 							<ProfileShape />
 						</div>

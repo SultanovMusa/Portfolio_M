@@ -14,8 +14,8 @@ interface Project {
 const projects: Project[] = [
 	{
 		title: "LMS",
-		description: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Magnam animi, dolores fugit numquam quae minima.`,
+		description: `LMS is a learning management system. It is 
+		a platform for managing online and offline training courses.`,
 		techStack: [
 			"TypeScript",
 			"Redux",
@@ -30,8 +30,11 @@ const projects: Project[] = [
 	},
 	{
 		title: "Peak-Space",
-		description: `Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Magnam animi, dolores fugit numquam quae minima.`,
+		description: `Streamlining Social Interaction: Simplifying 
+		the process of connecting with friends and 
+		discovering new content through real-time 
+		updates, optimizing user engagement and 
+		interaction.`,
 		techStack: [
 			"TypeScript",
 			"Redux",

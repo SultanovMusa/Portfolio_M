@@ -1,9 +1,9 @@
 
-import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Sidebar from "@/components/Sidebar";
+import Header from "@/components/Header";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -21,9 +21,9 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={inter.className}>
-				<Navbar />
-				<Sidebar />
+				<Header />
 				{children}
+				<Sidebar />
 			</body>
 		</html>
 	);

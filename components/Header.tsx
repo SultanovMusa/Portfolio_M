@@ -5,12 +5,12 @@ import Link from "next/link";
 import AnimatedNumbers from "./AnimatedNumbers";
 import Image from "next/image";
 
-const Navbar = () => {
+const Header = () => {
 	return (
 		<div className="fixed top-0 bg-[#01060f] shadow-[0px_4px_10px_rgba(0,0,255,0.5)] z-[20] w-full flex  gap-5 md:justify-between md:px-60 pi-5 ">
 			<div className="flex text-center items-center gap-3 ">
 				<Image src="/assets/smzlogo.jpg" alt="photo" width={80} height={80}  />
-				<span className="text-white text-2xl ">
+				<span className="text-white text-4xl ">
 					<AnimatedNumbers value={2005} />
 				</span>
 			</div>
@@ -31,4 +31,4 @@ const Navbar = () => {
 	);
 };
 
-export default Navbar;
+export default Header;
