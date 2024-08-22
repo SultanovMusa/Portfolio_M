@@ -7,14 +7,10 @@ export default function Home() {
 		<div>
 			<div className="container">
 				<main className="flex items-center h-screen relative">
-						{/* <div className=" right-0 top-0 h-full w-[60%] ">
-							<Particle />
-						</div> */}
 					<div className="container">
 						<div className="absolute  bottom-0 ">
 							<ProfileShape />
 						</div>
-
 						<div className="flex flex-col gap-3 z-[10]  pt-20">
 							<h1 className="text-[50px] text-white max-w-[500px]">
 								Mustafa Sultanov
@@ -28,7 +24,6 @@ export default function Home() {
 								explore my work and learn more <br />
 								about my professional journey.
 							</p>
-
 							<div className="relative w-[100px] top-11 h-[100px] md:w-[160px] md:h-[160px] mt-5">
 								<Image
 									src="/assets/image.png"

@@ -2,7 +2,8 @@ import { BsTelegram } from "react-icons/bs";
 import { PiInstagramLogoBold } from "react-icons/pi";
 import { BsGithub } from "react-icons/bs";
 import Link from "next/link";
-import AnimatedNumbers from "./AnimatedNumbers";
+
+import AnimatedNumbers from "./ui/AnimatedNumbers";
 import Image from "next/image";
 
 const Header = () => {

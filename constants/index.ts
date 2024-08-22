@@ -48,35 +48,20 @@ export const NavLinks = [
 	},
 ];
 // !Imagae
-export const ProImages = [
-	{
-		src: "/assets/projects/SpaceCity.jpg",
-	},
-	{
-		src: "/assets/projects/SpaceCity1.jpg",
-	},
-	{
-		src: "/assets/projects/SpaceCity2.jpg",
-	},
-	{
-		src: "/assets/projects/SpaceCity3.jpg",
-	},
-];
-// !Imagae 2
-export const ProImages2 = [
-	{
-		src: "/assets/projects/Orange1.jpeg",
-	},
-	{
-		src: "/assets/projects/Orange2.jpeg",
-	},
-	{
-		src: "/assets/projects/Orange3.jpeg",
-	},
-	{
-		src: "/assets/projects/Orange4.jpeg",
-	},
-];
+// export const ProImages = [
+// 	{
+// 		src: "/assets/projects/SpaceCity.jpg",
+// 	},
+// 	{
+// 		src: "/assets/projects/SpaceCity1.jpg",
+// 	},
+// 	{
+// 		src: "/assets/projects/SpaceCity2.jpg",
+// 	},
+// 	{
+// 		src: "/assets/projects/SpaceCity3.jpg",
+// 	},
+// ];
 
 // ! Skill data
 export const ServiceData = [
@@ -84,120 +69,120 @@ export const ServiceData = [
 		icon: RiReactjsLine,
 		title: "REACT ",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity7.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: SiTypescript,
 		title: "TypeScript",
 		content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity9.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: IoLogoJavascript,
 		title: "JavaScript",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity1.jpg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: SiNextdotjs,
 		title: "NEXT JS",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity1.jpg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: FaHtml5,
 		title: "HTML",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity6.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: IoLogoCss3,
 		title: "CSS",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity5.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: FaSass,
 		title: "SASS",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: TbBrandTailwind,
 		title: "TAILWIND",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: SiStyledcomponents,
 		title: "STYLED COMPONENT",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: SiMui,
 		title: "MUI ",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: SiRedux,
 		title: "REDUX",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: VscGithub,
 		title: "GIT HUB ",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: SiSocketdotio,
 		title: "Socket.io",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: SiReactrouter,
 		title: "React Router",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: FaGitAlt,
 		title: "Git ",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: TbBrandVite,
 		title: "Vite ",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: FaFigma,
 		title: "Figma ",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: SiInsomnia,
 		title: "Imsomnia ",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: IoLogoFirebase,
 		title: "Firebase ",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 	{
 		icon: SiBabel,
 		title: "Bavbel ",
 		content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-		backgroundImage: "/assets/space/SpaceCity8.jpeg",
+		backgroundImage: "/assets/projects/ImgMuFA1.jpg",
 	},
 ];
