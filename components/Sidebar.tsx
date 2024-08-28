@@ -26,7 +26,7 @@ const Sidebar = () => {
 			setPrevPath(path);
 			const timeout = setTimeout(() => {
 				setIsRouting(false);
-			}, 1200);
+			}, 900); 
 
 			return () => clearTimeout(timeout);
 		}
