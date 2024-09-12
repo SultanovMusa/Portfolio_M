@@ -29,6 +29,25 @@ const projects: Project[] = [
 		imageSrc: "/assets/i.webp",
 	},
 	{
+		title: "Aksoft.dev",
+		description: `Aksoft provides services for the development 
+		of high-tech web applications, websites and mobile applications. 
+		We specialize in creating customized software products, 
+		automated systems and digital services to solve business 
+		problems of any scale.`,
+		techStack: [
+			"TypeScript",
+			"Next. js",
+			"RTQ",
+			"Pages Router",
+			"Sass",
+			"RestApi",
+		],
+		githubUrl: "https://github.com/SultanovMusa/nextAksoft",
+		liveDemoUrl: "https://aksoft.dev/",
+		imageSrc: "/assets/aksoft.webp",
+	},
+	{
 		title: "Peak-Space",
 		description: `Streamlining Social Interaction: Simplifying 
 		the process of connecting with friends and 
@@ -62,12 +81,12 @@ const Page = () => {
 								className={`flex items-center justify-between h-[420px] rounded-lg shadow-[0px_4px_20px_rgba(0,0,255,0.3)] hover:shadow-[0px_4px_20px_rgba(0,0,255,0.6)] transition-shadow duration-300 ease-in-out p-3 ${
 									index % 2 === 0 ? "flex-row" : "flex-row-reverse"
 								}`}>
-								<div className="flex text-white flex-col text-center gap-10">
+								<div className="flex text-white flex-col text-center gap-9">
 									<div className="flex flex-col p-5">
 										<h1 className="text-3xl">{project.title}</h1>
 										<p className="w-[390px]">{project.description}</p>
 									</div>
-									<div className="flex gap-5 items-center justify-center flex-col">
+									<div className="flex gap-3 items-center justify-center flex-col">
 										<div className="flex gap-5">
 											{project.techStack.slice(0, 3).map((tech, i) => (
 												<button
@@ -108,7 +127,7 @@ const Page = () => {
 								</div>
 								<div>
 									<Image
-										className="rounded-xl bg-white"
+										className="rounded-xl bg-white w-[650px] h-[350px] object-cover"
 										src={project.imageSrc}
 										alt="project image"
 										priority={true}
